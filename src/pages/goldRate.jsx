@@ -106,7 +106,7 @@ export default function GoldRate() {
                     </div>
                 </div>
 
-                <div className="box mt-5 rounded-md p-10 bg-[#32bfba]">
+                <div className="box mt-5 rounded-md p-5 md:p-10 bg-[#32bfba]">
                     <div className="flex items-center justify-between">
                         <div class="flex items-center ">
                             <div class="bg-[white] p-1 rounded-full min-w-4 min-h-4 flex flex-shrink-0 justify-center items-center relative">
