@@ -118,7 +118,7 @@ export default function GoldRate() {
                         <div className="flex items-center justify-between">
                             <div class="flex items-center ">
                                 <div class="bg-[white] p-1 rounded-full min-w-4 min-h-4 flex flex-shrink-0 justify-center items-center relative">
-                                    <input type="radio" name="radio" checked={method == "grams"} onClick={() => setMethod("grams")} className="appearance-none bg-white relative z-50 cursor-pointer rounded-full checked:border-[#0a9d99] border-4 w-4 h-4 " />
+                                    <input type="radio" name="radio" checked={method == "grams"} onClick={() => setMethod("grams")} className="appearance-none bg-white relative z-50  cursor-pointer rounded-full checked:border-[#0a9d99] border-4 w-4 h-4 " />
 
                                 </div>
                                 <label id="label2" class="ml-2 text-[13px] font-[600] leading-4   text-white dark:text-gray-100">Buy in grams</label>
@@ -127,7 +127,7 @@ export default function GoldRate() {
 
                     </div>
                     <div className="input relative mt-10">
-                        <input type="number" value={currentValue} onChange={handleChangeValue} className='outline-none appearance-none remove-arrow text-white py-2 text-[20px] border-b w-full bg-transparent border-white' />
+                        <input type="number" value={currentValue} onChange={handleChangeValue} className='outline-none appearance-none remove-arrow text-white py-2 text-[30px] border-b w-full bg-transparent border-white' />
                         <p className="absolute bottom-0 text-[#ccc] right-0">={calculatedPrice}</p>
                     </div>
                     <div className='flex justify-center'>
